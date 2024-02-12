@@ -14,7 +14,7 @@ edition = "2018"
 [dependencies]
 libc = "0.2"
 bitflags = "2.1.0"
-libsoxr-sys = "0.1"
+libsoxr-sys = {git = "https://github.com/nemored/libsoxr-sys", branch = "feature/env-var"}
 
 [dev-dependencies]
 approx = "0.5.0"
